@@ -1,0 +1,27 @@
+$(document).ready(function(){
+	$('#sampleVideos').hide();
+	$('#sample').click(function(){
+		$('#acc').removeClass("current");
+		$('#sample').addClass("current");
+		$('#sampleVideos').show();
+		$('#upload').hide();
+	});
+	$('#acc').click(function(){
+		$('#acc').addClass("current");
+		$('#sample').removeClass("current");
+		$('#sampleVideos').hide();
+		$('#upload').show();
+	});
+	$(".fa-refresh").click(function(){
+		location.reload(true);
+	});
+	$('#timelineContent').hide();
+	$('#timeline').click(function(){
+		$('#insightsContent').hide();
+		$('#timelineContent').show();
+	});
+	$('#insights').click(function(){
+		$('#insightsContent').show();
+		$('#timelineContent').hide();
+	});
+});

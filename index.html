@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  		<h5><a class="main" href="index.html"><i class="fa fa-play"></i> Indexer</a></h5>
+		<div class="inside-top-nav" style="float:right;">
+		    <a class="btn btn-link top-nav"><i class="fa fa-home"></i>Home</a>
+		    <a class="btn btn-link top-nav"><i class="fa fa-phone"></i>Contact</a>
+		    <a class="btn btn-link top-nav"><i class="fa fa-users"></i>Team</a>
+		  	<img src="img/img_avatar.png" alt="Avatar" class="avatar">
+		</div>
+	</nav>
+	<div class="container-fluid search">
+	<div class="row">	
+		<div class="content">
+			<h4 style="color:#fff">Search inside your videos</h4>
+			<h4 style="color:#fff">Find the exact moments you're looking for by text, by person, or even by object.</h4>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-7">
+						<label class="">Find Topics</label>
+						<input class="form-control" type="text" placeholder="Search for text">
+					</div>
+					<div class="col-md-5">
+						<label class="">Find People</label>
+						<input class="form-control" type="text" placeholder="Search for people and celebrities" name="">
+					</div>
+					<div class="col-md-2">
+						<label class="">Find People</label><br>
+						<input class="btn btn-secondary" type="submit" value="Search">
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+	<nav class="navbar navbar-default" style="background-color:#fff;padding-top:5px;">
+		<div class="col-md-7">
+			<a id="acc" class="btn btn-link current" style="color:#000;">Account Videos</a>
+			<a id="sample" class="btn btn-link" style="color:#000;">Sample Videos</a>
+		</div>
+		<div class="col-md-3">
+			<a class="btn btn-link" style="color:#000;"><i class="fa fa-upload"></i>Upload</a>
+			<a class="btn btn-link" style="color:#000;"><i class="fa fa-refresh"></i>Refresh</a>
+		</div>
+	</nav>
+</div>
+	<div class="container-fluid" id="upload">
+		<div class="uploadVideo text-center">
+			<i style="font-weight: 800;" class="fa fa-upload"></i>
+			<h4>Upload your Video First</h4>
+			<button class="btn btn-secondary">Upload</button>
+		</div>
+	</div>
+	<div class="container" id="sampleVideos">
+		<div class="row">
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay" align="center">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div><br><br>
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div>
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div>
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div>
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div>
+			<div class="col-md-6 videoContainer">
+				<video src="vid_1.mp4" class="video"></video>
+				<div class="overlay">
+					<a href="gallery.html"><i class="fa fa-play"></i></a>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<footer>
+		<div align="right">
+			<a href="#">Pricing</a>
+			<a href="#">Privacy Statement</a>
+			<a href="#">Service Agreement</a>
+			<a href="#">Feedback</a>
+			<a href="#">Documentation</a>
+			<a href="#">API reference</a>
+		</div>
+	</footer>
+</body>
+</html>
